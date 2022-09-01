@@ -13,6 +13,18 @@ const MATIC: Currency = {
   decimals: 18,
 }
 
+const CRO: Currency = {
+  name: 'Cronos',
+  symbol: 'CRO',
+  decimals: 18,
+}
+
+const TCRO: Currency = {
+  name: 'tCronos',
+  symbol: 'TCRO',
+  decimals: 18,
+}
+
 const AVAX: Currency = {
   name: 'Avax',
   symbol: 'AVAX',
@@ -140,6 +152,30 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       fullName: 'Kovan Testnet',
       shortName: 'Kovan',
       explorerUrl: `https://kovan.etherscan.io`,
+      testnet: true,
+    },
+  ],
+  [
+    25,
+    {
+      id: 25,
+      nativeCurrency: CRO,
+      type: 'cronos',
+      fullName: 'Cronos Mainnet',
+      shortName: 'Cronos',
+      explorerUrl: `https://cronoscan.com`,
+      testnet: false,
+    },
+  ],
+  [
+    338,
+    {
+      id: 338,
+      nativeCurrency: TCRO,
+      type: 'tCronos',
+      fullName: 'Cronos Testnet',
+      shortName: 'tCronos',
+      explorerUrl: `https://cronos.crypto.org/explorer/`,
       testnet: true,
     },
   ],
