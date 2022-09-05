@@ -187,7 +187,7 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       type: 'tCronos',
       fullName: 'Cronos Testnet',
       shortName: 'tCronos',
-      explorerUrl: `https://cronos.crypto.org/explorer/`,
+      explorerUrl: `https://testnet.cronoscan.com`,
       testnet: true,
     },
   ],
