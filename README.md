@@ -2,6 +2,12 @@
 
 [<img src="https://img.shields.io/npm/v/use-wallet" alt="" />](https://www.npmjs.com/package/use-wallet) [<img src="https://img.shields.io/bundlephobia/minzip/use-wallet" alt="" />](https://bundlephobia.com/result?p=use-wallet)
 
+
+## FORKED BY THE Cookbook TEAM TO ALLOW US AND OUR USERS TO INTERACT WITH MORE CHAINS
+Cookbook is the easiest way to find, customize and deploy any evm smart contract on any chain. 
+Cookbook is free to use, and we're constantly adding new chains and smart contracts.
+Check us out at https://www.smartcontract.recipes/?utm=gh-1
+
 useWallet() allows dapp users to connect to the provider of their choice in a way that is as straightforward as possible. It provides a common data structure for any connected account, no matter what provider has been chosen by the user. It aims to provide some features that are often reimplemented by dapp developers: connecting to a wallet, keeping track of transactions, and more (submit a [issue](https://github.com/aragon/use-wallet/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or PR!).
 
 ## Features
