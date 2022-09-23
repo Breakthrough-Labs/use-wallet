@@ -1,13 +1,13 @@
-import { ConnectorConfig, ConnectorInit } from './types'
 import initFortmatic from './connectors/ConnectorFortmatic'
 import initFrame from './connectors/ConnectorFrame'
 import initInjected from './connectors/ConnectorInjected'
+import initLedger from './connectors/ConnectorLedger'
 import initPortis from './connectors/ConnectorPortis'
 import initProvided from './connectors/ConnectorProvided'
 import initTorus from './connectors/ConnectorTorus'
 import initWalletConnect from './connectors/ConnectorWalletConnect'
 import initWalletLink from './connectors/ConnectorWalletLink'
-import initLedger from './connectors/ConnectorLedger'
+import { ConnectorConfig, ConnectorInit } from './types'
 
 export function getConnectors(
   initsOrConfigs: { [key: string]: ConnectorInit | ConnectorConfig } = {}
