@@ -7,6 +7,12 @@ const ETH: Currency = {
   decimals: 18,
 }
 
+const ETC: Currency = {
+  name: 'Ether',
+  symbol: 'ETC',
+  decimals: 18,
+}
+
 const MATIC: Currency = {
   name: 'Matic Token',
   symbol: 'MATIC',
@@ -116,6 +122,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       fullName: 'Optimism Mainnet',
       shortName: 'Optimism',
       explorerUrl: `https://optimistic.etherscan.io`,
+      testnet: false,
+    },
+  ],
+  [
+    61,
+    {
+      id: 61,
+      nativeCurrency: ETC,
+      type: 'eth-classic',
+      fullName: 'Ethereum Classic',
+      shortName: 'Eth Classic',
+      explorerUrl: `https://blockscout.com/etc/mainnet`,
       testnet: false,
     },
   ],
