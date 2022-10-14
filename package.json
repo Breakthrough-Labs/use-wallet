@@ -1,6 +1,6 @@
 {
   "name": "use-wallet-btl",
-  "version": "0.13.40",
+  "version": "0.13.50",
   "author": "Aragon Association <legal@aragon.org>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
