@@ -401,6 +401,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    421613,
+    {
+      id: 421613,
+      nativeCurrency: ETH,
+      type: 'ArbitrumGörli',
+      fullName: 'Arbitrum Göerli',
+      shortName: 'Arbitrum Göerli',
+      explorerUrl: 'https://goerli-rollup-explorer.arbitrum.io/',
+      testnet: true,
+    },
+  ],
+  [
     42161,
     {
       id: 42161,
