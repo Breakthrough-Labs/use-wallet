@@ -1,7 +1,7 @@
 {
   "name": "use-wallet-btl",
   "version": "0.13.61",
-  "author": "Aragon Association <legal@aragon.org>",
+  "author": "Cookbook.dev <hello@breakthroughlabs.io>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
