@@ -549,6 +549,30 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    122,
+    {
+      id: 122,
+      nativeCurrency: ETH,
+      type: 'fuse',
+      fullName: 'Fuse Mainnet',
+      shortName: 'Fuse Mainnet',
+      explorerUrl: "https://explorer.fuse.io/",
+      testnet: false,
+    },
+  ],
+  [
+    123,
+    {
+      id: 123,
+      nativeCurrency: ETH,
+      type: 'fuse',
+      fullName: 'Fuse Sparknet',
+      shortName: 'Fuse Sparknet',
+      explorerUrl: "https://explorer.fusespark.io/",
+      testnet: true,
+    },
+  ],
+  [
     128,
     {
       id: 128,
