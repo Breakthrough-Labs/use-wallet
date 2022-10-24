@@ -1,7 +1,6 @@
 import initFortmatic from './connectors/ConnectorFortmatic'
 import initFrame from './connectors/ConnectorFrame'
 import initInjected from './connectors/ConnectorInjected'
-import initLedger from './connectors/ConnectorLedger'
 import initPortis from './connectors/ConnectorPortis'
 import initProvided from './connectors/ConnectorProvided'
 import initTorus from './connectors/ConnectorTorus'
@@ -23,7 +22,6 @@ export function getConnectors(
     torus: [initTorus, null],
     walletconnect: [initWalletConnect, null],
     walletlink: [initWalletLink, null],
-    ledger: [initLedger, null],
   }
 
   for (const [id, initOrConfig] of Object.entries(initsOrConfigs)) {
