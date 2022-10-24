@@ -1,19 +1,14 @@
 # 👛 useWallet()
 
-[<img src="https://img.shields.io/npm/v/use-wallet" alt="" />](https://www.npmjs.com/package/use-wallet) [<img src="https://img.shields.io/bundlephobia/minzip/use-wallet" alt="" />](https://bundlephobia.com/result?p=use-wallet)
-
+[<img src="https://img.shields.io/npm/v/use-wallet-btl" alt="" />](https://www.npmjs.com/package/use-wallet-btl) [<img src="https://img.shields.io/bundlephobia/minzip/use-wallet-btl" alt="" />](https://bundlephobia.com/result?p=use-wallet-btl)
 
 ## FORKED BY THE COOKBOOK TEAM TO ALLOW US AND OUR USERS TO INTERACT WITH MORE CHAINS
-Cookbook is the easiest way to find, customize and deploy any evm smart contract on any chain. 
+
+Cookbook is the easiest way to find, customize and deploy any evm smart contract on any chain.
 Cookbook is free to use, and we're constantly adding new chains and smart contracts.
-Check us out at https://www.smartcontract.recipes/?utm=gh-1
+Check us out at https://www.cookbook.dev/?utm=npm
 
-
-
-
-
-
-useWallet() allows dapp users to connect to the provider of their choice in a way that is as straightforward as possible. It provides a common data structure for any connected account, no matter what provider has been chosen by the user. It aims to provide some features that are often reimplemented by dapp developers: connecting to a wallet, keeping track of transactions, and more (submit a [issue](https://github.com/aragon/use-wallet/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or PR!).
+useWallet() allows dapp users to connect to the provider of their choice in a way that is as straightforward as possible. It provides a common data structure for any connected account, no matter what provider has been chosen by the user. It aims to provide some features that are often reimplemented by dapp developers: connecting to a wallet, keeping track of transactions, and more (submit an [issue](https://github.com/aragon/use-wallet/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or PR!).
 
 ## Features
 
@@ -52,7 +47,7 @@ Oh yes:
 Add it to your project:
 
 ```console
-yarn add use-wallet
+yarn add use-wallet-btl
 ```
 
 Use it in your React app:
@@ -61,7 +56,7 @@ Use it in your React app:
 // App.js
 
 import React from 'react'
-import { useWallet, UseWalletProvider } from 'use-wallet'
+import { useWallet, UseWalletProvider } from 'use-wallet-btl'
 
 function App() {
   const wallet = useWallet()
@@ -154,7 +149,7 @@ It returns an object representing the connected account (“wallet”), containi
 - `getBlockNumber()`: this function returns the current block number. This is a function because the block number updates often, which could trigger as many extra renders. Making an explicit call for the block number allows users of `useWallet()` to avoid extra renders when the block number is not needed.
 - `isConnected()`: this function returns whether the wallet is connected.
 - `networkName`: a human-readable name corresponding to the Chain ID.
-- `reset()`: call this function to “disconnect” from the current provider. This will also clean the latest error value stored in `use-wallet`'s state.
+- `reset()`: call this function to “disconnect” from the current provider. This will also clean the latest error value stored in `use-wallet-btl`'s state.
 - `status`: contains the current status of the wallet connection. The possible values are:
   - "disconnected": no wallet connected (default state).
   - "connecting": trying to connect to the wallet.
