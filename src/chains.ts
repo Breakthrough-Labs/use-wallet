@@ -7,6 +7,12 @@ const ETH: Currency = {
   decimals: 18,
 }
 
+const ETC: Currency = {
+  name: 'Ether',
+  symbol: 'ETC',
+  decimals: 18,
+}
+
 const MATIC: Currency = {
   name: 'Matic Token',
   symbol: 'MATIC',
@@ -120,6 +126,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    61,
+    {
+      id: 61,
+      nativeCurrency: ETC,
+      type: 'eth-classic',
+      fullName: 'Ethereum Classic',
+      shortName: 'Eth Classic',
+      explorerUrl: `https://blockscout.com/etc/mainnet`,
+      testnet: false,
+    },
+  ],
+  [
     3,
     {
       id: 3,
@@ -164,6 +182,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       fullName: 'Kovan Testnet',
       shortName: 'Kovan',
       explorerUrl: `https://kovan.etherscan.io`,
+      testnet: true,
+    },
+  ],
+  [
+    11155111,
+    {
+      id: 11155111,
+      nativeCurrency: ETH,
+      type: 'sepolia',
+      fullName: 'Sepolia Testnet',
+      shortName: 'Sepolia',
+      explorerUrl: `https://sepolia.etherscan.io`,
       testnet: true,
     },
   ],
@@ -275,6 +305,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    4002,
+    {
+      id: 4002,
+      nativeCurrency: FTM,
+      type: 'fantom testnet',
+      fullName: 'Fantom Testnet',
+      shortName: 'FTM',
+      explorerUrl: `https://testnet.ftmscan.com`,
+      testnet: true,
+    },
+  ],
+  [
     1666600000,
     {
       id: 1666600000,
@@ -359,6 +401,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    421613,
+    {
+      id: 421613,
+      nativeCurrency: ETH,
+      type: 'ArbitrumGörli',
+      fullName: 'Arbitrum Göerli',
+      shortName: 'Arbitrum Göerli',
+      explorerUrl: 'https://goerli-rollup-explorer.arbitrum.io/',
+      testnet: true,
+    },
+  ],
+  [
     42161,
     {
       id: 42161,
@@ -426,7 +480,7 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       type: 'aurora',
       fullName: 'Aurora Testnet',
       shortName: 'AuroraTest',
-      explorerUrl: 'https://explorer.testnet.aurora.dev/',
+      explorerUrl: 'https://testnet.aurorascan.dev/',
       testnet: true,
     },
   ],
@@ -438,7 +492,7 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       type: 'aurora',
       fullName: 'Aurora Mainnet',
       shortName: 'Aurora',
-      explorerUrl: 'https://explorer.mainnet.aurora.dev/',
+      explorerUrl: 'https://aurorascan.dev/',
       testnet: false,
     },
   ],
