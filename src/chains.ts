@@ -99,7 +99,12 @@ const HECO: Currency = {
   symbol: 'HT',
   decimals: 18,
 }
-
+const ALGO: Currency = {
+  name: 'Algorand',
+  symbol: 'ALGO',
+  decimals: 18
+  ,
+}
 const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
   [
     1,
@@ -582,6 +587,30 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       shortName: 'HECO',
       explorerUrl: `https://hecoscan.xyz/`,
       testnet: false,
+    },
+  ],
+  [
+    2002,
+    {
+      id: 2002,
+      nativeCurrency: ALGO,
+      type: 'algorand',
+      fullName: 'Milkomeda A1',
+      shortName: 'ALGO',
+      explorerUrl: `https://bridge-explorer.milkomeda.com/algorand-mainnet`,
+      testnet: false,
+    },
+  ],
+  [
+    200202,
+    {
+      id: 200202,
+      nativeCurrency: ALGO,
+      type: 'algorand',
+      fullName: 'Milkomeda A1 Devnet',
+      shortName: 'ALGO',
+      explorerUrl: `https://bridge-explorer.milkomeda.com/algorand-devnet`,
+      testnet: true,
     },
   ],
 ])

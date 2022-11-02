@@ -1,6 +1,6 @@
 {
   "name": "use-wallet-btl",
-  "version": "0.13.63",
+  "version": "0.13.64",
   "author": "Cookbook.dev <hello@breakthroughlabs.io>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
