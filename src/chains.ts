@@ -613,6 +613,30 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       testnet: true,
     },
   ],
+  [
+    2888,
+    {
+      id: 288,
+      nativeCurrency: ETH,
+      type: 'boba',
+      fullName: 'Boba',
+      shortName: 'ETH',
+      explorerUrl: `https://bobascan.com`,
+      testnet: false,
+    },
+  ],
+  [
+    2888,
+    {
+      id: 2888,
+      nativeCurrency: ETH,
+      type: 'boba',
+      fullName: 'Boba Goerli',
+      shortName: 'ETH',
+      explorerUrl: `https://testnet.bobascan.com`,
+      testnet: true,
+    },
+  ],
 ])
 
 /**
