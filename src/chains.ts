@@ -614,7 +614,7 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
-    2888,
+    288,
     {
       id: 288,
       nativeCurrency: ETH,
