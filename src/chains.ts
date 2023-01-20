@@ -137,9 +137,9 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
-    2046399126,
+    1564830818,
     {
-      id: 2046399126,
+      id: 1564830818,
       nativeCurrency: sFUEL,
       type: 'skale',
       fullName: 'Calypso NFT Hub (SKALE)',
