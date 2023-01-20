@@ -13,6 +13,12 @@ const ETC: Currency = {
   decimals: 18,
 }
 
+const sFUEL: Currency = {
+  name: 'Europa SKALE Chain',
+  symbol: 'sFUEL',
+  decimals: 18,
+}
+
 const MATIC: Currency = {
   name: 'Matic Token',
   symbol: 'MATIC',
@@ -116,6 +122,42 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       shortName: 'Ethereum',
       explorerUrl: `https://etherscan.io`,
       testnet: false,
+    },
+  ],
+  [
+    2046399126,
+    {
+      id: 2046399126,
+      nativeCurrency: sFUEL,
+      type: 'skale',
+      fullName: 'Europa SKALE Chain',
+      shortName: 'Europa SKALE',
+      explorerUrl: `https://elated-tan-skat.explorer.mainnet.skalenodes.com`,
+      testnet: false,
+    },
+  ],
+  [
+    2046399126,
+    {
+      id: 2046399126,
+      nativeCurrency: sFUEL,
+      type: 'skale',
+      fullName: 'Calypso NFT Hub (SKALE)',
+      shortName: 'Calypso NFT Hub',
+      explorerUrl: `https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com`,
+      testnet: false,
+    },
+  ],
+  [
+    344106930,
+    {
+      id: 344106930,
+      nativeCurrency: sFUEL,
+      type: 'skale',
+      fullName: 'Calypso Testnet (SKALE)',
+      shortName: 'Calypso Testnet',
+      explorerUrl: `https://staging-utter-unripe-menkar.explorer.staging-v3.skalenodes.com`,
+      testnet: true,
     },
   ],
   [
