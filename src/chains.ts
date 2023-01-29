@@ -137,7 +137,7 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
-    2046399126,
+    1517929550,
     {
       id: 1517929550,
       nativeCurrency: sFUEL,
