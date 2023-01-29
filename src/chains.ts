@@ -137,6 +137,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    2046399126,
+    {
+      id: 1517929550,
+      nativeCurrency: sFUEL,
+      type: 'skale',
+      fullName: 'Titan Staging Chain',
+      shortName: 'Titan Staging',
+      explorerUrl: `https://staging-aware-chief-gianfar.explorer.staging-v3.skalenodes.com`,
+      testnet: true,
+    },
+  ],
+  [
     1564830818,
     {
       id: 1564830818,
